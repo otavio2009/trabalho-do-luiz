@@ -1,22 +1,22 @@
-// Seleção dos elementos do DOM
+// Selecionando os elementos da página
 const botao = document.querySelector(".botao");
 const mensagem = document.querySelector(".mensagem");
 const titulo = document.querySelector("#titulo");
 
-// Função que será executada no clique
-function mostrarCuriosidade() {
-    // Altera o título da página
-    titulo.textContent = "Inseto Real! 🪲";
+// Função que revela a piada e altera a página de forma visível
+function mostrarResposta() {
+    // Altera o título principal
+    titulo.textContent = "Resposta Exata! 😂";
     
-    // Altera o texto do parágrafo com a explicação detalhada
-    mensagem.textContent = "Em 1947, a analista Grace Hopper encontrou uma mariposa real travando os contatos de um relé do computador Harvard Mark II. Ela removeu o inseto e o colou no diário de bordo, chamando o processo de 'debugging' (depuração).";
+    // Altera o texto da mensagem mostrando a interação da piada
+    mensagem.textContent = "Todos eles! kkkkkkkkk Todos os meses têm pelo menos 28 dias!";
     
-    // Altera o visual do botão e desabilita após o clique
-    botao.textContent = "Curiosidade Revelada!";
-    botao.style.backgroundColor = #28a745;
+    // Altera o visual do botão usando aspas corretamente (assim o código não trava)
+    botao.textContent = "Muito fácil!";
+    botao.style.backgroundColor = "#27ae60"; 
     botao.style.cursor = "default";
     botao.disabled = true;
 }
 
-// Ouvinte de evento para disparar a função através do clique
-botao.addEventListener("click", mostrarCuriosidade);
+// Configurando o clique para rodar a função
+botao.addEventListener("click", mostrarResposta);
