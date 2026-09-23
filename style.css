@@ -1,7 +1,6 @@
-/* Estilo básico para a página ficar bonita na captura de tela */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #eef2f3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,37 +10,37 @@ body {
 
 .card {
     background-color: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    max-width: 400px;
+    max-width: 380px;
 }
 
 h1 {
-    color: #333;
+    color: #2c3e50;
     margin-bottom: 15px;
 }
 
 p {
-    color: #666;
-    font-size: 1.1rem;
-    line-height: 1.5;
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
     margin-bottom: 25px;
-    min-height: 80px; /* Mantém o espaço do texto fixo */
 }
 
 .botao {
-    background-color: #007bff;
+    background-color: #e74c3c;
     color: white;
     border: none;
-    padding: 12px 24px;
+    padding: 14px 28px;
     font-size: 1rem;
-    border-radius: 6px;
+    font-weight: bold;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 0.2s;
 }
 
 .botao:hover {
-    background-color: #0056b3;
+    background-color: #c0392b;
 }
